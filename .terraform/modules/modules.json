@@ -1,0 +1,30 @@
+{
+  "Modules": [
+    { "Key": "", "Source": "", "Dir": "." },
+    {
+      "Key": "compute",
+      "Source": "./.terraform/modules/compute",
+      "Dir": ".terraform/modules/compute"
+    },
+    {
+      "Key": "event_driven",
+      "Source": "./.terraform/modules/event_driven",
+      "Dir": ".terraform/modules/event_driven"
+    },
+    {
+      "Key": "monitoring",
+      "Source": "./.terraform/modules/monitoring",
+      "Dir": ".terraform/modules/monitoring"
+    },
+    {
+      "Key": "networking",
+      "Source": "./.terraform/modules/networking",
+      "Dir": ".terraform/modules/networking"
+    },
+    {
+      "Key": "storage",
+      "Source": "./.terraform/modules/storage",
+      "Dir": ".terraform/modules/storage"
+    }
+  ]
+}
