@@ -78,6 +78,13 @@ TheFashionFind is a comprehensive e-commerce clothing platform deployed entirely
     * Amazon CloudWatch
     * AWS CloudTrail for audit trails
 
+## Terraform Modules
+
+1. [Compute](https://github.com/meghp73/lab-final-TheFashionFind/tree/main/.terraform/modules/compute)
+2. [Monitoring](https://github.com/meghp73/lab-final-TheFashionFind/tree/main/.terraform/modules/monitoring)
+3. [Storage](https://github.com/meghp73/lab-final-TheFashionFind/tree/main/.terraform/modules/storage)
+4. [Networking](https://github.com/meghp73/lab-final-TheFashionFind/tree/main/.terraform/modules/networking)
+5. [Event-Driven](https://github.com/meghp73/lab-final-TheFashionFind/tree/main/.terraform/modules/event_driven)
 
 ## Performance Requirements
 ### Network & Bandwidth
@@ -131,3 +138,9 @@ Traffic and order volumes may spike 50-100% during:
 * Cyber Monday
 * Holiday season sales
 * Seasonal clearance events
+
+## References:
+
+1. https://www.terraform.io/
+2. https://aws.amazon.com/
+3. https://app.diagrams.net/
